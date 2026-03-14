@@ -34,6 +34,17 @@ This project demonstrates a complete **end-to-end decentralized application (dAp
 - Tailwind CSS
 
 ---
+## Screenshots
+
+![Dashboard](dashbord.png)
+
+![Voting](voting.png)
+
+![Results](result.png)
+
+![wallet](walletconnection.png)
+
+![transactionVerification](transactionverification)
 
 ## Demo Video
 
