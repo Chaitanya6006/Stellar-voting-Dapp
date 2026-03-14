@@ -24,6 +24,17 @@ This project demonstrates a complete **end-to-end decentralized application (dAp
 - Simple and responsive dashboard UI
 
 ---
+## Smart Contract
+
+This application uses a Soroban smart contract deployed on the Stellar Testnet.
+
+Contract ID:
+
+CB7MCRTWKYBKFW6S763YCBMJHZNGPYZCIBQ3C2OJBKWIMSKBCRU5RJMW
+
+You can view the contract on the Stellar Explorer:
+
+https://stellar.expert/explorer/testnet/contract/CB7MCRTWKYBKFW6S763YCBMJHZNGPYZCIBQ3C2OJBKWIMSKBCRU5RJMW
 
 ## Tech Stack
 
@@ -34,18 +45,6 @@ This project demonstrates a complete **end-to-end decentralized application (dAp
 - Tailwind CSS
 
 ---
-## Screenshots
-
-![Dashboard](dashbord.png)
-
-![Voting](voting.png)
-
-![Results](result.png)
-
-![wallet](walletconnection.png)
-
-![transactionVerification](transactionverification)
-
 ## Demo Video
 
 The demo video shows the full functionality of the dApp including wallet connection and voting.
@@ -66,8 +65,6 @@ PASS tests/voting.test.ts
 ✓ Proposal comparison
 ✓ Total vote calculation
 ```
-
-Minimum **3 tests are passing successfully**.
 
 ---
 
