@@ -1,22 +1,120 @@
-# Soroban Project
+# Stellar Voting Mini dApp
+
+## Overview
+
+This project is a **mini decentralized voting application** built using the Stellar Soroban smart contract platform.
+
+The application allows users to connect their wallet and vote for proposals. Each vote is recorded on the Stellar blockchain, ensuring transparency and immutability.
+
+This project demonstrates a complete **end-to-end decentralized application (dApp)** including:
+
+- Smart contract interaction
+- Wallet authentication
+- Frontend dashboard
+- Live voting results
+
+---
+
+## Features
+
+- Connect wallet using Freighter
+- Vote on blockchain proposals
+- Live vote result updates
+- Leader detection
+- Simple and responsive dashboard UI
+
+---
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Stellar Soroban
+- Freighter Wallet
+- Tailwind CSS
+
+---
+
+## Demo Video
+
+The demo video shows the full functionality of the dApp including wallet connection and voting.
+
+Video file is included in this repository.
+
+---
+
+## Tests
+
+The project includes basic unit tests to verify voting logic.
+
+Example test output:
+
+```
+PASS tests/voting.test.ts
+✓ Proposal 1 vote calculation
+✓ Proposal comparison
+✓ Total vote calculation
+```
+
+Minimum **3 tests are passing successfully**.
+
+---
+
+## Installation
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm run dev
+```
+
+---
+
+## Smart Contract
+
+This project interacts with a **Soroban smart contract deployed on the Stellar Testnet**.
+
+The smart contract stores vote counts for proposals and allows users to submit votes through blockchain transactions.
+
+---
 
 ## Project Structure
 
-This repository uses the recommended structure for a Soroban project:
-
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
+```
+stellar-voting-dapp
+│
+├── app
+│   ├── page.tsx
+│   ├── contract.ts
+│
+├── tests
+│   └── voting.test.ts
+│
+├── README.md
+└── package.json
 ```
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+---
+
+## Future Improvements
+
+Possible improvements for this project:
+
+- Multiple proposals
+- Voting history
+- DAO governance system
+- Analytics dashboard
+
+---
+
+## Author
+
+Chaitanya
+
+Blockchain Student | Stellar Soroban Developer
